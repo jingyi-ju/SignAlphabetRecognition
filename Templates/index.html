@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign Alphabet Recognition</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <meta charset="utf-8">
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+    </style>
+
+</head>
+<body>
+
+
+<div class="container">
+  <h1 class="jumbotron bg-primary">Sign Alphabet Recognition</h1>
+  <br><br>
+  <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
+
+    <div class="form-group">
+      <b>Upload Your Image with the following requirements:</b>
+
+      <br> 1) contrastive background and hand color.</br>
+      <br>2) 28 * 28 grayscale.</br>
+
+      <br></br>
+      <div class="col-sm-10">
+        <input type="file" class="form-control" placeholder="Hours Studied"  name="my_image" id="pwd">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+  </form>
+
+	{% if prediction %}
+  <img src="{{img_path}}" height="28px" width="28px">
+	<h2> Your Prediction   : <i> {{prediction}} </i></h2>
+
+	{% endif %}
+
+</div>
