@@ -9,7 +9,7 @@ This webapp, built using Flask, adopts the Keras Sequential CNN model to classif
 ## Repository Structure
 - `Deliverables/`: submitted MAIS 202 deliverables
 - `Model/`: contains `model_pkl`, the compiled CNN model 
-- `Static/`: static folder for images uploaded via the webapp
+- `static/`: static folder for images uploaded via the webapp
 - `Templates/`: html template for the main web page
 - `app.py`: webapp for sign alphabet image classification
 
