@@ -1,7 +1,7 @@
 # Sign Language Alphabet
-Final project for McGill AI Society Introductory ML Bootcamp (Winter 2020).
+Final project for McGill AI Society Introductory ML Bootcamp (Winter 2020) by Alice Chu and Shuru Wang.
 
-Training data retrieved from [Kaggle](https://www.kaggle.com/datasets/datamunge/sign-language-mnist).
+Training data from [Kaggle](https://www.kaggle.com/datasets/datamunge/sign-language-mnist).
 
 ## Project Description
 This webapp, built using Flask, adopts the Keras Sequential CNN model to classify sign language hand gesture image (28x28 grayscale) as English alphabet letter. The model achieves 96.2% validation accuracy.
@@ -16,6 +16,6 @@ This webapp, built using Flask, adopts the Keras Sequential CNN model to classif
 ## Running the App
 1. Install all packages in requirements.txt. 
 2. Run `python app.py` from the main directory. 
-3. Go to http://localhost:5000 on your browser.
+3. Go to http://localhost:5000 on browser.
 
 
