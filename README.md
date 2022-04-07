@@ -1,5 +1,5 @@
 # Sign Language Alphabet
-Final project for McGill AI Society Intro to ML Bootcamp (Winter 2020).
+Final project for McGill AI Society Introductory ML Bootcamp (Winter 2020).
 
 Training data retrieved from [Kaggle](https://www.kaggle.com/datasets/datamunge/sign-language-mnist).
 
